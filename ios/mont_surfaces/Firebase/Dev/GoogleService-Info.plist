@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>69270860122-l0dk0lb9mmfp97chdqqfs71g5khuei4u.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.69270860122-l0dk0lb9mmfp97chdqqfs71g5khuei4u</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>69270860122-l5ekhe5i9g7pkp1jkr47od2v522gg39n.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAYTnx7eKRfNM7JWmmH2c4q5sXjoJFCsb0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>69270860122</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.mont.surfaces</string>
+	<key>PROJECT_ID</key>
+	<string>mont-test</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mont-test.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:69270860122:ios:636c9d22e76719f9c80363</string>
+</dict>
+</plist>

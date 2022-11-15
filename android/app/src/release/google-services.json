@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "427300823854",
+    "project_id": "mont-prod",
+    "storage_bucket": "mont-prod.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427300823854:android:4b78dec267246ead3110bf",
+        "android_client_info": {
+          "package_name": "com.mont_surfaces"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "427300823854-8s9k8nevgjbjeoi2jlaede3ogqj2o092.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mont_surfaces",
+            "certificate_hash": "38019bbd26adfc7be620323473c93a9c5962b673"
+          }
+        },
+        {
+          "client_id": "427300823854-t8fgusuhf02vljokmi3uasu32hdqem2l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtPr_NQ19vmlYgqXJ7OozZ0K1CzGxEwVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "427300823854-t8fgusuhf02vljokmi3uasu32hdqem2l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "427300823854-f3mlh5g7mhmumdht44jq6pgr6functp5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mont.surfaces"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
