@@ -26,7 +26,7 @@ const DrawerStack = props => {
         name="DashBoardHome"
         component={BottomTabStackScreen}
         options={{
-          headerTitle: props => <Text>Hello World!!</Text>,
+          headerTitle: props => <Text>Stepping Stones</Text>,
           headerStyle: TabNavigatorStyle.drawerHeaderStyle,
           headerTintColor: Colors.light,
           headerTitleAlign: 'center',
@@ -36,9 +36,9 @@ const DrawerStack = props => {
           headerRight: () => (
             <Button 
               onPress={()=>{
-                props.navigation.navigate('Profile', {})
+                props.actions.clearData();
               }}
-              title={"Profile"}
+              title={"Logout"}
             />
           ),
         }}

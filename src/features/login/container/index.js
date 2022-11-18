@@ -1,1 +1,1 @@
-export { Login, ForgotPassword  } from "./login";
+export { Login, ForgotPassword, ResetPassword  } from "./login";

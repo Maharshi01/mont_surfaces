@@ -1,7 +1,7 @@
 export const Screens = {
   LOGIN: 'Login',
-  SIGNUP: 'Signup',
   FORGOT_PASSWORD: 'ForgotPassword',
+  RESET_PASSWORD: 'ResetPassword',
   HOME: 'Home',
   PROFILE: 'Profile',
   INVENTORY: 'Inventory',
@@ -10,5 +10,6 @@ export const Screens = {
   DRAWER_STACK: 'DrawerStack',
   BOTTOM_TAB_STACK: 'BottomTabStack',
   APP_STACK: 'AppStack',
-  LOGINSTACK: 'LoginStack'
+  LOGINSTACK: 'LoginStack',
+  MAINSTACK: 'MainStack'
 };

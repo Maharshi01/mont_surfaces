@@ -24,9 +24,6 @@ class Home extends Component {
          <View style={styles.mainContainer}>
             <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
                <Text>Home Screen</Text>
-               {/* <Button title="Profile" onPress={()=>{
-                  this.props.navigation.navigate("Cart")
-               }} /> */}
                 {/* <Button title="Add Analytics" 
                         onPress={async () =>
                            await analytics().logEvent('mont_dev_env'+ "_"+ Platform.OS, {
@@ -47,7 +44,7 @@ const styles = StyleSheet.create({
 //dummy methods
 const mapStateToProps = state => {
    return {
-      sample: state.sample.addCount,
+      sample: state.sample,
    };
 };
 

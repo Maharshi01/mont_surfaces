@@ -3,10 +3,12 @@ import {StyleSheet} from 'react-native';
 export const colors = {
     PRIMARY: "#0050BB",
     PRIMARY_STRING: "#E65F24",
+    //label
+    LABEL_PRIMARY: '#4C4C4C',
     // text
     TEXT_PRIMARY: "#303035",
-    TEXT_SECONDARY: "#999999",
-    TEXT_TERTIARY: "#CCCCCC",
+    TEXT_SECONDARY: "#313131",
+    TEXT_TERTIARY: "#D9D9D9",
     LIGHT_GRAY: "#F2F2F2",
     // background
     BACKGROUND_WHITE: "white",
@@ -50,7 +52,7 @@ export const colors = {
     RED: "#F62929",
     INPUT_HEADER:"#2C2C2C",
     MAIN_HEADER:"#2E2E2E",
-    TITLE_HEADER:"#363436"
+    IMAGE_HEADER:"#363436"
 };
 
 export const FONT_FAMILY = "Inter-Medium"

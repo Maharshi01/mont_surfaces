@@ -5,7 +5,7 @@ import ProfileComponent from "../component";
 
 //dummy methods
 const mapStateToProps = state => {
-    return { sample: state.sample.addCount }
+    return { sample: state.sample }
 };
 
 
