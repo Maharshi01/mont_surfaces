@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { StyleSheet, View, Text, Button } from 'react-native';
+import { StyleSheet, StatusBar, View, Text, Button } from 'react-native';
 
 
-class List extends Component {
+class Cart extends Component {
    constructor(props) {
       super(props);
       this.state = {
@@ -18,7 +18,7 @@ class List extends Component {
       return (
          <View style={styles.mainContainer}>
             <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-               <Text>Lists Screen</Text>
+               <Text>Cart Screen</Text>
             </View>
          </View>
       );
@@ -32,4 +32,4 @@ const styles = StyleSheet.create({
 });
 
 
-export default List;
+export default Cart;

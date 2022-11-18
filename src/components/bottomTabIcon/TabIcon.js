@@ -8,12 +8,12 @@ const TabIcon = props => {
   return (
     <View>
       <Image
-        tintColor={props.focused ? colors.BLACK : colors.GRAY}
+        tintColor={props.focused ? colors.PRIMARY : colors.ICON_INACTIVE}
         source={props.imgUrl}
         style={{
           width: 22,
           height: 22,
-          tintColor: props.focused ? colors.BLACK : colors.GRAY,
+          tintColor: props.focused ? colors.PRIMARY : colors.ICON_INACTIVE,
           resizeMode: 'stretch',
         }}
       />

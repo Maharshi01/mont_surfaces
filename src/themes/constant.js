@@ -10,6 +10,8 @@ export const colors = {
     TEXT_SECONDARY: "#313131",
     TEXT_TERTIARY: "#D9D9D9",
     LIGHT_GRAY: "#F2F2F2",
+    //icon
+    ICON_INACTIVE: '#868686',
     // background
     BACKGROUND_WHITE: "white",
     BACKGROUND_CARD: "#F3F4F6",
@@ -202,6 +204,20 @@ export const fonts = StyleSheet.create({
     },
     SMALL_BOLD: {
         fontFamily: FONT_FAMILY_BOLD,
+        fontSize: 12,
+        lineHeight: 15,
+        color: colors.TEXT_PRIMARY,
+        backgroundColor: 'transparent'
+    },
+    SMALL_REGULAR: {
+        fontFamily: FONT_FAMILY_REGULAR,
+        fontSize: 12,
+        lineHeight: 15,
+        color: colors.TEXT_PRIMARY,
+        backgroundColor: 'transparent'
+    },
+    SMALL_LIGHT: {
+        fontFamily: FONT_FAMILY_LITE,
         fontSize: 12,
         lineHeight: 15,
         color: colors.TEXT_PRIMARY,

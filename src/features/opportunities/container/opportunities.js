@@ -1,7 +1,7 @@
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import * as SampleAction from '../../../redux/actions/sample';
-import ListComponent from "../component";
+import OpportunitiesComponent from "../component";
 
 //dummy methods
 const mapStateToProps = state => {
@@ -18,6 +18,6 @@ const mapDispatchToProps = (dispatch) => {
     return { actions: bindActionCreators(Actions, dispatch) }
 }
 
-export const List = connect(mapStateToProps, mapDispatchToProps)(
-    ListComponent
+export const Opportunities = connect(mapStateToProps, mapDispatchToProps)(
+    OpportunitiesComponent
 );

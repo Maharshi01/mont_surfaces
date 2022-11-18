@@ -1,10 +1,10 @@
 export const strings = {
     profile: 'Profile',
     home: 'Home',
-    here: 'here',
+    dashboard: 'Dashboard',
+    inventory: 'Inventory',
+    opportunities: 'Opportunities',
     cart: 'Cart',
-    booking: 'Booking',
-    list: 'List',
     login: 'Login',
     submit: 'Submit',
     cancel: 'Cancel',

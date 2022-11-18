@@ -23,80 +23,22 @@ const BottomTabStack = () => {
         name="Home"
         component={ScreenName.Home}
         options={{
-          tabBarLabel: ({ tintColor, focused, item }) => {
+          tabBarLabel: ({ color, focused, item }) => {
             return focused ? (
               <Text style={TabNavigatorStyle.activeTabLabel}>
-                {strings.home}
+                {strings.dashboard}
               </Text>
             ) : (
               <Text style={TabNavigatorStyle.inactiveTabLabel}>
-                {strings.home}
+                {strings.dashboard}
               </Text>
             );
           },
-          tabBarActiveTintColor: colors.BLACK,
-          tabBarIcon: ({ focused, horizontal, tintColor }) => {
+          tabBarIcon: ({ focused, color, size }) => {
             return (
               <TabIcon
-                tintColor={tintColor}
-                imgUrl={Images.home}
-                focused={focused}
-              />
-            );
-          },
-          headerShown: false,
-        }}
-      />
-      <Tab.Screen
-        name="Cart"
-        component={ScreenName.Purchases}
-        options={{
-          tabBarLabel: ({ tintColor, focused, item }) => {
-            return focused ? (
-              <Text style={TabNavigatorStyle.activeTabLabel}>
-                {strings.cart}
-              </Text>
-            ) : (
-              <Text style={TabNavigatorStyle.inactiveTabLabel}>
-                {strings.cart}
-              </Text>
-            );
-          },
-          tabBarActiveTintColor: colors.black,
-          tabBarIcon: ({ focused, horizontal, tintColor }) => {
-            return (
-              <TabIcon
-                tintColor={tintColor}
-                imgUrl={Images.cart}
-                focused={focused}
-              />
-            );
-          },
-          headerShown: false,
-        }}
-        initialParams={{ from: 'cart' }}
-      />
-      <Tab.Screen
-        name="List"
-        component={ScreenName.List}
-        options={{
-          tabBarLabel: ({ tintColor, focused, item }) => {
-            return focused ? (
-              <Text style={TabNavigatorStyle.activeTabLabel}>
-                {strings.list}
-              </Text>
-            ) : (
-              <Text style={TabNavigatorStyle.inactiveTabLabel}>
-                {strings.list}
-              </Text>
-            );
-          },
-          tabBarActiveTintColor: colors.black,
-          tabBarIcon: ({ focused, horizontal, tintColor }) => {
-            return (
-              <TabIcon
-                tintColor={tintColor}
-                imgUrl={Images.list}
+                tintColor={color}
+                imgUrl={Images.dashboard}
                 focused={focused}
               />
             );
@@ -107,25 +49,78 @@ const BottomTabStack = () => {
       <Tab.Screen
         name="Inventory"
         component={ScreenName.Inventory}
-        initialParams={{ menubar: false }}
         options={{
-          tabBarLabel: ({ tintColor, focused, item }) => {
+          tabBarLabel: ({ color, focused, item }) => {
             return focused ? (
               <Text style={TabNavigatorStyle.activeTabLabel}>
-                {strings.profile}
+                {strings.inventory}
               </Text>
             ) : (
               <Text style={TabNavigatorStyle.inactiveTabLabel}>
-                {strings.profile}
+                {strings.inventory}
               </Text>
             );
           },
-          tabBarActiveTintColor: colors.BLACK,
-          tabBarIcon: ({ focused, horizontal, tintColor }) => {
+          tabBarIcon: ({ focused, color, size }) => {
             return (
               <TabIcon
-                tintColor={tintColor}
-                imgUrl={Images.user}
+                tintColor={color}
+                imgUrl={Images.inventory}
+                focused={focused}
+              />
+            );
+          },
+          headerShown: false,
+        }}
+      />
+      <Tab.Screen
+        name="Opportunities"
+        component={ScreenName.Opportunities}
+        options={{
+          tabBarLabel: ({ color, focused, item }) => {
+            return focused ? (
+              <Text style={TabNavigatorStyle.activeTabLabel}>
+                {strings.opportunities}
+              </Text>
+            ) : (
+              <Text style={TabNavigatorStyle.inactiveTabLabel}>
+                {strings.opportunities}
+              </Text>
+            );
+          },
+          tabBarIcon: ({ focused, color, size }) => {
+            return (
+              <TabIcon
+                tintColor={color}
+                imgUrl={Images.opportunities}
+                focused={focused}
+              />
+            );
+          },
+          headerShown: false,
+        }}
+      />
+      <Tab.Screen
+        name="Cart"
+        component={ScreenName.Cart}
+        initialParams={{ menubar: false }}
+        options={{
+          tabBarLabel: ({ color, focused, item }) => {
+            return focused ? (
+              <Text style={TabNavigatorStyle.activeTabLabel}>
+                {strings.cart}
+              </Text>
+            ) : (
+              <Text style={TabNavigatorStyle.inactiveTabLabel}>
+                {strings.cart}
+              </Text>
+            );
+          },
+          tabBarIcon: ({ focused, color, size }) => {
+            return (
+              <TabIcon
+                tintColor={color}
+                imgUrl={Images.cart}
                 focused={focused}
               />
             );
